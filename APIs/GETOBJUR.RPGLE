@@ -12,8 +12,8 @@
 //   QIWS/QCUSTCDT *FILE is in use by QPAD165916/LENNONS/167740.
 // Or this:
 //   QIWS/QCUSTCDT *FILE is in use by CUSTLST/LENNONS/167922,
-//     DAILYORD/LENNONS/167924, INV_UPD/LENNONS/167923,
-//     QPAD165916/LENNONS/167740 plus 1 more.
+//     DAILYORD/USER/167924, INV_UPD/LENNONS/167923,
+//     QPAD165916/USER/167740 plus 1 more.
 // Compile: CRTBNDRPG PGM(GETOBJUR) SRCFILE(...) DBGVIEW(*LIST)
 //--------------------------------------------------------------------
 
