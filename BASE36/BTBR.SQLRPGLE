@@ -41,7 +41,7 @@ wkNext = %trim(pi_First);
 wkLast = %trim(pi_Last);
 
 //=== Drop and recreate output Table =================================
-exec sql set schema lennons1; // <-----  Change this to your library!
+exec sql set schema user1; // <-----  Change this to your library!
 exec sql drop table btb;
 exec sql create table btb (
     theSeq int,

@@ -1,8 +1,8 @@
 -- Create the DATE UDF (User Defined Functions) using
 -- the routines in the DATE_SQL Service program.
 
-set schema lennons1;  -- CHANGE TO YOUR LIBRARY
-set path   lennons1;  -- CHANGE TO YOUR LIBRARY
+set schema user1;  -- CHANGE TO YOUR LIBRARY
+set path   user1;  -- CHANGE TO YOUR LIBRARY
 
 DROP FUNCTION DATE_MDY
 ;

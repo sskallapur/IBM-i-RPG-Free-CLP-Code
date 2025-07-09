@@ -3,7 +3,7 @@
 -- RUNSQLSTM SRCSTMF('/home/USER/IBMi_IFS_Dev/5250_Subfile/States.sql') COMMIT(*NONE) ERRLVL(40) 
 -- Our paste into Run SQL Scripts in iACS.
 -- Or run directly in VS Code with Code for IBM i extension.                                                 
-set schema lennonsb;   -- Change to your desired library
+set schema USERb;   -- Change to your desired library
 drop table states;
 CREATE TABLE STATES ( 
 	STATE CHAR(2) CCSID 273 NOT NULL , 

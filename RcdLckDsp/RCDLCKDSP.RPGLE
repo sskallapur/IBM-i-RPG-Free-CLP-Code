@@ -152,7 +152,7 @@ Dcl-S myStatus     Zoned(4:0);
  begsr GetUserPrf;
  // Dig the user profile out of the error message (EXCP_DATA)
  // which looks like this:
- //  Record 3317 in use by job 018249/SLENNON/MISREMSAM
+ //  Record 3317 in use by job 018249/USER/MISREMSAM
      UserPrf = ' ';
      wkI = %scan('/':PSDS.EXCP_DATA);
      if wkI <> 0;

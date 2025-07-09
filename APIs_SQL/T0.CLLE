@@ -5,7 +5,7 @@ PGM
 
              DCL        VAR(&MSG) TYPE(*CHAR) LEN(200)
 
-             GETOBJUSR  OBJECT(QSYS/LENNONS2) TYPE(*LIB) +
+             GETOBJUSR  OBJECT(QSYS/USER2) TYPE(*LIB) +
                           MSGFLD(&MSG) RETFILE(*YES)
 
              SNDMSG     MSG(&MSG) TOUSR(*REQUESTER)

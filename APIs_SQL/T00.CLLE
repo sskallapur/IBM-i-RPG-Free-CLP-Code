@@ -5,19 +5,19 @@ PGM
 
              DCL        VAR(&MSG) TYPE(*CHAR) LEN(200)
 
-             GETOBJUSR  OBJECT(lennons1/tgtstkp) TYPE(*file) +
+             GETOBJUSR  OBJECT(user1/tgtstkp) TYPE(*file) +
                           MSGFLD(&MSG) RETFILE(*YES) member(Backup)
 
              SNDMSG     MSG(&MSG) TOUSR(*REQUESTER)
              QRY        FILE(QTEMP/GETOBJUP)
 
-             GETOBJUSR  OBJECT(lennons1/tgtstkp) TYPE(*file) +
+             GETOBJUSR  OBJECT(user1/tgtstkp) TYPE(*file) +
                           MSGFLD(&MSG) RETFILE(*YES) member(TGTSTKP)
 
              SNDMSG     MSG(&MSG) TOUSR(*REQUESTER)
              QRY        FILE(QTEMP/GETOBJUP)
 
-             GETOBJUSR  OBJECT(lennons1/tgtstkp) TYPE(*file) +
+             GETOBJUSR  OBJECT(user1/tgtstkp) TYPE(*file) +
                           MSGFLD(&MSG) RETFILE(*YES)
 
              SNDMSG     MSG(&MSG) TOUSR(*REQUESTER)

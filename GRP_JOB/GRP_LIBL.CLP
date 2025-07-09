@@ -4,6 +4,6 @@
  /* Called from GRP.                                               */
  /*================================================================*/
 
- CHGLIBL    LIBL(LENNONS1 LENNONS2 QGPL QTEMP)
+ CHGLIBL    LIBL(USER1 USER2 QGPL QTEMP)
 
  ENDPGM

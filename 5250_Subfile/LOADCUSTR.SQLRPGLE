@@ -92,14 +92,14 @@ exec sql set  option datfmt=*iso,
               closqlcsr=*endmod;
               
 // === Clear Custmast file ===              
-exec sql truncate  lennons1.custmast;
+exec sql truncate  USER1.custmast;
 if (SQLSTT <> SQLSUCCESS and SQLSTT <> SQLNODATA);
   SQLProblem('truncate custmast');
 endif;
 
 // === Size the City/State/Zip array ===
 exec sql select count(*) into :cszCount
-  from lennons1.csz
+  from USER1.csz
   where length(trim(city)) <= 20;
 if (SQLSTT <> SQLSUCCESS);
   SQLProblem('select count(*)');
@@ -109,7 +109,7 @@ endif;
 // === Populate csz_a ===
 exec sql declare csz_cur cursor for
   select zip, type, upper(city), trim(state)
-  from lennons1.csz
+  from USER1.csz
   where length(trim(city)) <= 20;
 exec sql open csz_cur;
 if (SQLSTT <> SQLSUCCESS );
@@ -200,7 +200,7 @@ for nRecds = 1 to p_recds;
   Fld.CHGUSER = '*SYSTEM*';
 
   // === Write out a record ======================================
-  exec sql insert into lennons1.custmast values(:Fld);
+  exec sql insert into USER1.custmast values(:Fld);
   if (SQLSTT <> SQLSUCCESS);
     SQLProblem('Insert into custmast');
   endif;

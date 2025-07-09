@@ -10,16 +10,16 @@
 // to the system operator and/or a file, QTEMP/GETOBJUP, which
 // could be used to send messages to all interactive users of the
 // object, or for some other use. Or the jobname can be copied and
-// pasted into a command, e.g. wrkjob 110080/LENNONS/QPAD142626.
+// pasted into a command, e.g. wrkjob 110080/USER/QPAD142626.
 
 // This program is called from CL program GETOBJUC.
 
 // It uses the QSYS2.OBJECT_LOCK_INFO SQL view.
 // Message looks like this:
-//   QIWS/QCUSTCDT *FILE is in use by 110088/LENNONS/QPAD142626.
+//   QIWS/QCUSTCDT *FILE is in use by 110088/USER/QPAD142626.
 // Or this:
-//   QIWS/QCUSTCDT *FILE is in use by 191174/LENNONS/QPAD160408,
-//   191550/LENNONS/CUSTLST, 191551/LENNONS/INV_UPD, 191552/LENNONS/DAILYORD
+//   QIWS/QCUSTCDT *FILE is in use by 191174/USER/QPAD160408,
+//   191550/USER/CUSTLST, 191551/USER/INV_UPD, 191552/USER/DAILYORD
 //   plus 1 more.
 //--------------------------------------------------------------------
 // Compile: CRTBNDRPG PGM(GETOBJUR) SRCFILE(...) DBGVIEW(*LIST)

@@ -3,7 +3,7 @@
 
  --  Change CustID to char to allow alpha/numeric keys
 
- set schema lennons1;  -- <<<<< Change to your library <<<<<<
+ set schema USER1;  -- <<<<< Change to your library <<<<<<
  DROP TABLE custmast;
 
 CREATE TABLE custmast (
