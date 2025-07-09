@@ -1,10 +1,4 @@
       *******************************************************************
-     * From "Sort Those API Lists," NEWS/400, 
-     * 
-     * 
-     * ALL RIGHTS RESERVED.
-     *
-     *
      * Program:     SRTUSRSPC
      * Description: This program sorts in a user space lists
      * created by system API commands.
