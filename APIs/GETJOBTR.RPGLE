@@ -15,12 +15,7 @@
 //     S=system job, W=spooled writer, X=SCPF system job.
 //Compile: CRTBNDRPG PGM(GETJOBTR) SRCFILE(...) DBGVIEW(*LIST)
 // -------------------------------------------------------------------
-// 12/00/97 LENNON Original Writing
-// 07/--/2021 Lennon Converted to **FREE and Linear module.
-//            It was origially a standalone program. Perhaps it should
-//            be a service program and perhaps some of the diract API
-//            call should be in a service program.
-// 02/--/2024 Set for soource in IFS
+
 // -------------------------------------------------------------------
 ctl-opt debug option(*nodebugio: *srcstmt)
     dftactgrp(*no) actgrp(*caller)

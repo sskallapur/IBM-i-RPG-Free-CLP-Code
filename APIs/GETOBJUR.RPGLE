@@ -9,23 +9,14 @@
 // This program is called from CL program GETOBJUC.
 // It calls the QWCLOBJL (List Object Locks) API.
 // Message looks like this:
-//   QIWS/QCUSTCDT *FILE is in use by QPAD165916/LENNONS/167740.
+//   QIWS/QCUSTCDT *FILE is in use by QPAD165916/USER/167740.
 // Or this:
-//   QIWS/QCUSTCDT *FILE is in use by CUSTLST/LENNONS/167922,
-//     DAILYORD/LENNONS/167924, INV_UPD/LENNONS/167923,
-//     QPAD165916/LENNONS/167740 plus 1 more.
+//   QIWS/QCUSTCDT *FILE is in use by CUSTLST/USER/167922,
+//     DAILYORD/USER/167924, INV_UPD/USER/167923,
+//     QPAD165916/USER/167740 plus 1 more.
 // Compile: CRTBNDRPG PGM(GETOBJUR) SRCFILE(...) DBGVIEW(*LIST)
 //--------------------------------------------------------------------
-// 12/00/97 LENNON  Original Writing
-// 07/--/2021 Converted to **FREE and Linear module.
-//            There are SQL services now that can provide similar
-//            infomations, but as far as I know there is no SQL
-//            interface to QWCLOBJL.  And there certainly was not in
-//            1997. This code probably performs better than existing
-//            SQL interfaces. For most use cases performance may not
-//            be a consideration.
-// 02/--/2024 Set for source in IFS
-//--------------------------------------------------------------------
+
 ctl-opt debug option(*nodebugio: *srcstmt)
     dftactgrp(*no) actgrp(*caller)
     main(Main);

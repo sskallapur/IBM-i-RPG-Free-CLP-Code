@@ -20,7 +20,6 @@
 // input and output, but it doesn't have to be the same memory
 // in the caller. Use copy member USAdrValDS.
 //====================================================================
-// 04/2024 LENNON
 //  Change to HTTPS
 //  Provide password, even though it currently seems to be ignored. 
 //====================================================================

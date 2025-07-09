@@ -1,10 +1,10 @@
 /* Command ...... : RSNESCMSG - Resend Escape Message             */
 /* CPP .......... : QMHRSNEM                                      */
-/* Author ....... : Brian Rusch                                   */
+/*                                                                */
 /*                                                                */
 /* This is a command interface over IBM's API.                    */
 /*                                                                */
-/* Published in Four Hundred Guru on May 2, 2012                  */
+/*                                                                */
 /* No warranties expressed or implied. Use at your own risk.      */
 /*                                                                */
 /* Compile with ALLOW(*BPGM *IPGM *BMOD *IMOD)                    */

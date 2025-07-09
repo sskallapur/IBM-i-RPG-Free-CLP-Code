@@ -9,12 +9,7 @@ GETOBJUC: +
 /* -----------------------------------------------------------------*/
 /* Use the GETOBJUSR command to invoke this program                 */
 /* -----------------------------------------------------------------*/
-/* 11/24/97 LENNON Original writing                                 */
-/* -----------------------------------------------------------------*/
-/* 10/05/2001 Sam Lennon. If a non file object is locked *EXCL then */
-/*            RTVOBJD to get real library name to put in the        */
-/*            message fails. If this occurs, just continue and      */
-/*            *LIBL may appear in the message.                      */
+
 /* -----------------------------------------------------------------*/
 /* 02/--/2024 CPF7306 to allow for SQL created GETOBJUP member      */
 /* -----------------------------------------------------------------*/

@@ -24,18 +24,6 @@
 //--------------------------------------------------------------------
 // Compile: CRTBNDRPG PGM(GETOBJUR) SRCFILE(...) DBGVIEW(*LIST)
 //--------------------------------------------------------------------
-// 12/00/97 LENNON  Original Writing
-// 07/--/2021 Converted to **FREE and Linear module.
-//            There are SQL services now that can provide similar
-//            infomations, but as far as I know there is no SQL
-//            interface to QWCLOBJL.  And there certainly was not in
-//            1997. This code probably performs better than existing
-//            SQL interfaces. For most use cases performance may not
-//            be a consideration.
-// 08/--/2021 Converted to use QSYS2.OBJECT_LOCK_INFO and to create the
-//            GETOBJUP file with SQL.
-// 09/17/2021 - Fixed member logic by uppercasing CASE values
-//            - Added input parms to GETOBJUP output file.
 //--------------------------------------------------------------------
 ctl-opt debug option(*nodebugio: *srcstmt)
     dftactgrp(*no) actgrp(*caller)
