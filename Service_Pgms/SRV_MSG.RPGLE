@@ -13,7 +13,7 @@
 //
 // ADDBNDDIRE BNDDIR(UTIL_BND) OBJ((SRV_MSG *SRVPGM *DEFER))
 //==============================================================
-// 12/2023  Convert to totally **FREE
+//          Convert to totally **FREE
 //==============================================================
 
 ctl-opt nomain option(*nodebugio: *srcstmt);

@@ -4,7 +4,6 @@
       *
       * =====> Create with MBR(*NONE).  Dupe into QTEMP to use.
       *
-      * 12/00/97 LENNON Initial Coding
       *================================================================
      A          R GETOBJU
      A            OUJOBNAME     10          TEXT('Job Name')

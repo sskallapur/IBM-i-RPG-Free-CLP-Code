@@ -1,7 +1,7 @@
       *******************************************************************
-     * From "Sort Those API Lists," NEWS/400, May 1996.
-     * Author: Greg LaForge
-     * COPYRIGHT (c) 1996 Duke Communications International,
+     * From "Sort Those API Lists," NEWS/400, 
+     * 
+     * 
      * ALL RIGHTS RESERVED.
      *
      *

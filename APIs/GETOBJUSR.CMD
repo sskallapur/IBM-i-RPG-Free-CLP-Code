@@ -5,7 +5,6 @@
  /*   CRTCMD CMD(GETOBJUSR) PGM(GETOBJUC)                           */
  /*         ALLOW(*BPGM *IPGM *BMOD *IMOD)                          */
  /*-----------------------------------------------------------------*/
- /* 12/00/97 LENNON Original writting                               */
  /*-----------------------------------------------------------------*/
              PARM       KWD(OBJECT) TYPE(Q1) MIN(1) PROMPT('Object +
                           Name')

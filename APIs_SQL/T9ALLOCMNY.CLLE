@@ -1,6 +1,5 @@
              PGM
 /***************************************************************/
-/* Creates locks on LENNONS/QCLSRC to test GETOBJUR.            */
 /* Call T9DSPMNY to report the locks.                          */
 /***************************************************************/
             DCL        VAR(&JOBTYP) TYPE(*CHAR) LEN(1)

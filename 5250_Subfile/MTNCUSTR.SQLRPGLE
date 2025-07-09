@@ -35,8 +35,8 @@
 // Compilation
 //    Use CRTSQLRPGI command.
 //=============================================================
-// 12/2023 Convert to totally **FREE
-// 02/2024 Change CUSTID to character for alpha-numeric keys
+//  Convert to totally **FREE
+//  Change CUSTID to character for alpha-numeric keys
 //=============================================================
 ctl-opt dftactgrp(*no) actgrp(*caller) option(*nodebugio: *srcstmt)
   bnddir('UTIL_BND':'SRV_BASE36') ;

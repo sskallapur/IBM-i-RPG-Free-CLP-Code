@@ -15,7 +15,6 @@
 // Program reads table QIWS/QCUSTCDT which is on all(?) machines.
 // Pass a two character State parameter, e.g. PARM('NY').
 //-----------------------------------------------------------------
-// 10/--/2021 Lennon.  This is a revised version of the original
 //            SQL_SKEL program.
 //            I trimmed down the code by moving the SQLProblem
 //            logic into the SRV_SQL service program. The SQLProblem

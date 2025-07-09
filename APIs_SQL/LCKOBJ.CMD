@@ -1,7 +1,6 @@
  LCKOBJ:     CMD        PROMPT('Get a lock on an object')
  /*-----------------------------------------------------------------*/
  /* CPP is LCKOBJC                                                  */
- /* 02/00/97 LENNON Original writting                               */
  /*-----------------------------------------------------------------*/
              PARM       KWD(OBJ) TYPE(OBJSTUFF) MIN(1) +
                           PROMPT('Object Name')

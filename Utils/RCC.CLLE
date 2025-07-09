@@ -9,7 +9,6 @@ RCC: +
 /*                                                                   */
 /* Use the RC command to invoke this program                         */
 
-/* 01/01/98 LENNON.  Original Writing                                */
 
 /* Input parameters */
   DCL VAR(&PFILE)      TYPE(*CHAR) LEN(20)    /* file/lib */

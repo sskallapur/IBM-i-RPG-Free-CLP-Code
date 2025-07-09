@@ -1,8 +1,8 @@
  -- Creates CUSTMAST and Indexes -------------------------------
  -- Can then  "CALL LOADCUST2 nnn" to load nnn random records.
 
- -- 02/2024 Change CustID to char to allow alpha/numeric keys
- 
+ --  Change CustID to char to allow alpha/numeric keys
+
  set schema lennons1;  -- <<<<< Change to your library <<<<<<
  DROP TABLE custmast;
 

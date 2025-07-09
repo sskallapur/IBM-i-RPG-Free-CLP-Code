@@ -42,7 +42,7 @@
 //    Note that /INCLUDEs expects to find code in Copy_Mbrs file,
 //    not the default of QRPGLESRC. Change as needed.
 //=============================================================
-// 12/2023 Converted to totally **FREE
+//  Converted to totally **FREE
 //         Use SQLPROBLEM service program
 //=============================================================
 ctl-opt dftactgrp(*no) actgrp(*caller) option(*nodebugio: *srcstmt)

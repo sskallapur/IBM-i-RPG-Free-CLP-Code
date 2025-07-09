@@ -16,16 +16,7 @@
 //     QPAD165916/LENNONS/167740 plus 1 more.
 // Compile: CRTBNDRPG PGM(GETOBJUR) SRCFILE(...) DBGVIEW(*LIST)
 //--------------------------------------------------------------------
-// 12/00/97 LENNON  Original Writing
-// 07/--/2021 Converted to **FREE and Linear module.
-//            There are SQL services now that can provide similar
-//            infomations, but as far as I know there is no SQL
-//            interface to QWCLOBJL.  And there certainly was not in
-//            1997. This code probably performs better than existing
-//            SQL interfaces. For most use cases performance may not
-//            be a consideration.
-// 02/--/2024 Set for source in IFS
-//--------------------------------------------------------------------
+
 ctl-opt debug option(*nodebugio: *srcstmt)
     dftactgrp(*no) actgrp(*caller)
     main(Main);

@@ -24,7 +24,6 @@
      A*       This makes it easy to name the indicators in the DS.
      a* Note: DSPATR HI and RI at the same time = non-display. Thus
      a*       when we turn on RI were turn of HI,
-     a* 01/2021 Lennon Allow lower case on name, address, city
      A*===============================================================
      A*%%EC
      A                                      DSPSIZ(24 80 *DS3)

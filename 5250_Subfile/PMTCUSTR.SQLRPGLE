@@ -62,9 +62,9 @@
 
 //  I edit using VS Code with the 'Code for IBM i" extension.
 //============================================================
-// 12/2023 Converted to totally **FREE
+//  Converted to totally **FREE
 //         Changed to use SQLPROBLEM service pgm
-// 01/2025 Require at least one parameter.
+//  Require at least one parameter.
 //         Remove commented SQLPROBLEM code.
 //         Fix some issues with "Return selected customer" 
 //============================================================
