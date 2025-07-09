@@ -16,7 +16,6 @@
 // Pass a two character State parameter, e.g. PARM('NY').
 // -----------------------------------------------------------------
 
-
 ctl-opt option(*nodebugio:*srcstmt) dftactgrp(*no) actgrp(*caller)
     bnddir('SQL_BND')
     main(SQL_SKEL);
