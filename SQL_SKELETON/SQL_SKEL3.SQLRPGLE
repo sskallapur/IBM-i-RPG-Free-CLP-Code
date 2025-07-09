@@ -15,15 +15,6 @@
 // Program reads table QIWS/QCUSTCDT which is on all(?) machines.
 // Pass a two character State parameter, e.g. PARM('NY').
 // -----------------------------------------------------------------
-//            Lennon.  This is a revised version of the original
-//            SQL_SKEL program.
-//            I trimmed down the code by moving the SQLProblem
-//            logic into the SRV_SQL service program. The SQLProblem
-//            messaging is also improved.
-//            Lennon. This is a revised version of SQL_SKEL2 and uses
-//            procedures instead of subroutines and attempts to avoid
-//            global variables.
-//            I have also changed the naming approach.
 
 ctl-opt option(*nodebugio:*srcstmt) dftactgrp(*no) actgrp(*caller)
     bnddir('SQL_BND')
