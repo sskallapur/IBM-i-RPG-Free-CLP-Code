@@ -13,7 +13,7 @@
     DCL   (&TEXT)    (*CHAR)  STG(*DEFINED) LEN(50)   DEFVAR(&LINE 33)
     DCL   (&UNDER)   (*CHAR) LEN(60) +
             VALUe('____________________________________________________________')
-    DCL   (&THELIB)  (*CHAR) LEN(10) VALUE('LENNONS1')
+    DCL   (&THELIB)  (*CHAR) LEN(10) VALUE('USER1')
     DCL   (&LAST_FILE) (*CHAR)   LEN(10) VALUE(' ')
     DCL   (&LINE_SPACE) (*CHAR)   LEN(2)
    /* Create some data */

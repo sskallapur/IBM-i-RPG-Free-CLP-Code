@@ -138,7 +138,7 @@ This is a RPG/FREE program that does the heavy lifting. It saves heading lines i
 
 It writes to the MYPRINT printer file which is defined like this:
 ```
-    CRTPRTF FILE(LENNONS1/MYPRT) DEVTYPE(*SCS) 
+    CRTPRTF FILE(USER1/MYPRT) DEVTYPE(*SCS) 
             PAGESIZE(66 133) LPI(6) CPI(10) 
              OVRFLW(60) CTLCHAR(*FCFC) CHLVAL((1 (6))) 
              FONT(*CPI)

@@ -1,5 +1,5 @@
 -- Test DATE_CYMD UDF
-set path   lennons1;  -- Change to your library
+set path   user1;  -- Change to your library
 set schema session;   -- QTEMP
 
 declare global temporary TABLE test_cymd (

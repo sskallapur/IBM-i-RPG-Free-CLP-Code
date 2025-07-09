@@ -5,7 +5,7 @@ GRP: +
 /*==============================================================*/
 
   DCL VAR(&DFTLIBLPGM) TYPE(*CHAR) LEN(10)    VALUE('GRP_LIBL')
-  DCL VAR(&DFTLIBLLIB) TYPE(*CHAR) LEN(10)    VALUE('LENNONS1')
+  DCL VAR(&DFTLIBLLIB) TYPE(*CHAR) LEN(10)    VALUE('USER1')
 
   CHGJOB CCSID(37)
 

@@ -18,7 +18,7 @@ The returned message would be suitable for sending to the operator and look some
 
 It shows the details of up to 4 jobs and lists how many additional jobs, if any, have locks.
 
-A job name can be copied and pasted into a WRKJOB command, e.g. `wrkjob 233920/LENNONS/QPAD151018`.
+A job name can be copied and pasted into a WRKJOB command, e.g. `wrkjob 233920/USER/QPAD151018`.
 
 The returned file is GETOBJUP in QTEMP.
 

@@ -3,7 +3,6 @@
      A                                      CA03(03 'Exit')
      A                                      CA12(12 'Cancel')
      A          R TESTR
-     A*%%TS  SD  20250329  154927  LENNONS     REL-V7R5M0  5770-WDS
      A*
      A            A#SNG1         1Y 0H
      A            A#SNG2         1Y 0H

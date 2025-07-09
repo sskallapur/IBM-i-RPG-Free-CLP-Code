@@ -16,7 +16,7 @@ ctl-opt nomain option(*nodebugio: *srcstmt);
 // The underlying SQL function returns a number that is
 // >= .0 and <= .1, but it rarely returns .1.
 
-// CRTSRVPGM SRVPGM(LENNONS1/SRV_RAND) MODULE(Rand_Int) EXPORT(*ALL)
+// CRTSRVPGM SRVPGM(USER1/SRV_RAND) MODULE(Rand_Int) EXPORT(*ALL)
 
 dcl-proc Rand_Int export;
   dcl-pi Rand_Int int(10);

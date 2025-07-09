@@ -1,7 +1,7 @@
 pgm     
              DCL        VAR(&MSG) TYPE(*CHAR) LEN(200)
 
-             GETOBJUSR  OBJECT(lennons1/qclsrc) TYPE(*file) +
+             GETOBJUSR  OBJECT(user1/qclsrc) TYPE(*file) +
                           MSGFLD(&MSG) RETFILE(*YES)
 
              SNDMSG     MSG(&MSG) TOUSR(*REQUESTER)

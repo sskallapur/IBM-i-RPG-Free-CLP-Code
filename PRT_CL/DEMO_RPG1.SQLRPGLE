@@ -15,7 +15,7 @@
 //                  N: sort by field name (default)
 //                  S: sort by ordinal sequence of fields
 // Sample call:
-// CALL PGM(DEMO_RPG1) PARM((LENNONS1) (BOMMASPF) (S))
+// CALL PGM(DEMO_RPG1) PARM((USER1) (BOMMASPF) (S))
 // If you plan to use this, creating a command is recommended.
 ctl-opt option(*srcstmt: *nodebugio)
     bnddir('SQL_BND')
@@ -132,7 +132,7 @@ dcl-proc Main;
     begsr init;
         // === Process paramters
         if (%parms = 0);  //no parms, set defaults for testing
-            theLibrary = 'LENNONS1';
+            theLibrary = 'USER1';
             theFile = 'ECL*';
             theSeq = 'S';
         endif;

@@ -1,7 +1,7 @@
              PGM
              /* === Set your target library here ================ */
              DCL VAR(&TGT_LIB) TYPE(*CHAR) LEN(10) + 
-                 VALUE('LENNONS1')              
+                 VALUE('USER1')              
              /* ================================================= */
             
              DLTMSGF    MSGF(&TGT_LIB/CUSTMSGF)
